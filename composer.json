@@ -1,0 +1,26 @@
+{
+    "name": "rgousi/interopbridgebundle",
+    "type": "symfony-bundle",
+    "description": "Bridge between interop module and symfony container",
+    "keywords": ["PSR-11", "Symfony", "contenair-interpop"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rossignol Guillaume"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/dependency-injection": "~2.3",
+        "container-interop/definition-interop": "@dev",
+        "symfony/framework-bundle": "^2.7"
+    },
+    "require-dev": {
+        "php": ">=5.6",
+        "phpunit/phpunit": ">=5",
+        "mnapoli/assembly": "@dev"
+    },
+    "autoload": {
+        "psr-4": { "rgousi\\InteropBridgeBundle\\": "" }
+    }
+}
